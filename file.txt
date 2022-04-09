@@ -1,0 +1,272 @@
+    1  ls
+    2  cat /etc/os-release
+    3  cd Desktop
+    4  cd /
+    5  ll
+    6  cd Destop
+    7  ls
+    8  cd ..
+    9  ls
+   10  cd /
+   11  cd home
+   12  ls
+   13  cd ..
+   14  ls
+   15  cd ~
+   16  ls
+   17  ll
+   18  cd Documents/
+   19  ls
+   20  cd ..
+   21  clear
+   22  history
+   23  clear
+   24  pwd
+   25  cd /
+   26  pwd
+   27  clear
+   28  pwd
+   29  ls
+   30  ll
+   31  clear
+   32  ls
+   33  cat /etc/os-release 
+   34  uname -a
+   35  ll
+   36  ls-l
+   37  ls -l
+   38  cd home
+   39  ll
+   40  cd frankanokgmail/
+   41  cd Desktop/
+   42  ls -l
+   43  cd ..
+   44  ls -l
+   45  cd ..
+   46  ls -l
+   47  cd ..
+   48  ls -l
+   49  cd /home/frankanokgmail/Desktop/
+   50  ls
+   51  cd -
+   52  pwd
+   53  cd -
+   54  pwe
+   55  pwd
+   56  touch index.html
+   57  ll
+   58  rm index.html 
+   59  cd ..
+   60  ls
+   61  cd Documents/
+   62  touch index.html
+   63  ls
+   64  touch {a-b}.txt
+   65  ls
+   66  touch [a-b].txt
+   67  ls
+   68  touch {a,b}.txt
+   69  ls
+   70  date
+   71  echo
+   72  echo "hi"
+   73  echo $PWD
+   74  echo "hi how are you?" > newfile.txt
+   75  ls
+   76  cat newfile.txt 
+   77  cat newfile.txt -n
+   78  nano
+   79  vim app.html
+   80  clear
+   81  cp newfile.txt /home/frankanokgmail/Desktop/
+   82  cp app.html ../Desktop/ -v
+   83  mkdir /home/frankanokgmail/Desktop/new_folder
+   84  ls
+   85  mkdir ../Desktop/folder_1/folder1-1/folder-1-1-2 -p
+   86  \
+   87  history
+   88  cp app.html ../Desktop/new_folder/
+   89  cd Documents/
+   90  cp app.html ../Desktop/new_folder/
+   91  cp app.html ../Desktop/new_folder/ -v
+   92  ls
+   93  cp a.txt ../Desktop/new_folder/app.html 
+   94  ls
+   95  echo " hi this is vm comd" > a.txt
+   96  echo " hi this is mv comd" > b.txt 
+   97  ll
+   98  mv a.txt ../Desktop/new_folder/
+   99  mv b.txt ../Desktop/new_folder/ -v
+  100  ls -a
+  101  cd Documents/
+  102  ls
+  103  ll
+  104  mkdir dir-1
+  105  ls
+  106  ll
+  107  rm -f '[a-b].txt' 
+  108  ls
+  109  ll
+  110  rmdir dir-2
+  111  mv \{a-b\}.txt dir-1/
+  112  rmdir dir-1/
+  113  rmdir -f dir-1/
+  114  rmdir -rf dir-1/
+  115  rmd -rf dir-1/
+  116  rm -rf dir-1/
+  117  ls
+  118  mkdir dir2
+  119  touch {a..g}.txt
+  120  ls
+  121  mv g.txt dir2/
+  122  rmdir -p dir2/
+  123  man rmdir
+  124  rm -rf dir2/
+  125  ls
+  126  man rm
+  127  man ls
+  128  man rm
+  129  sudo apt-get update
+  130  htop
+  131  ps -aux | grep i rdp
+  132  sudo apt-get grep
+  133  apt install ntp
+  134  sudo apt install ntp
+  135  sudo i
+  136  sudo -i
+  137  sudo -su
+  138  sudo apt install grep
+  139  sudo suu
+  140  sudo su
+  141  ps -aux | grep i rdp
+  142  ps -aux | grep -i rdp
+  143  cat /etc/ssh/sshd_config -n | less
+  144  cat /etc/ssh/sshd_config -n
+  145  head -10 /etc/ssh/sshd_config
+  146  tail -10 /etc/ssh/sshd_config
+  147  vim notes.txt
+  148  chmod 400 index.html 
+  149  ll index.html 
+  150  chmod 700 index.html 
+  151  ll index.html 
+  152  chmod 777 index.html 
+  153  ll index.html 
+  154  chmod 241 index.html 
+  155  ll index.html 
+  156  chmod 361 index.html 
+  157  ll index.html 
+  158  ls
+  159  ll app.html 
+  160  sudo apt install apache2
+  161  cd /etc/apache2/
+  162  ls
+  163  vim apache2.conf 
+  164  ls
+  165  vim ports.conf
+  166  cd /home/frankanokgmail/Desktop/
+  167  ls
+  168  history > history.txt
+  169  cat history.txt 
+  170  pwd
+  171  mkdir folder1
+  172  cd folder_1/folder1-1/folder-1-1-2/
+  173  cd ~
+  174  ls
+  175  cd Desktop/
+  176  echo "This is a new file" > demo.txt
+  177  cat demo.txt 
+  178  ll demo.txt 
+  179  chmod 222 demo.txt 
+  180  ll demo.txt 
+  181  chmod 444 demo.txt 
+  182  ll demo.txt 
+  183  apt-get  install git
+  184  sudo apt-get  install git
+  185  history
+  186  sudo -i
+  187  whoami
+  188  sudo
+  189  cd Do
+  190  cd Documents/
+  191  vim notes.txt 
+  192  git add index.html 
+  193  git commit -m"added html"
+  194  git push
+  195  ls
+  196  git status
+  197  git add index.html 
+  198  git commit -m"ver2"
+  199  git push
+  200  git add index.html 
+  201  git commit -m"heading2"
+  202  git push
+  203  cat index.html 
+  204* git log
+  205* 
+  206* 
+  207  git pull
+  208  git log --oneline
+  209  vim contact.html
+  210  git add index.html contact.html 
+  211  git status
+  212  git commit -m"add contact.html and v5 index"
+  213  git status
+  214  git push
+  215  cat index.html > contact.html 
+  216  cat contact.html 
+  217  git add contact.html 
+  218  git commit -m"updated contact file"
+  219  git push
+  220  git checkout -b dev
+  221  git branch
+  222  ls
+  223  cat contact.html > media.html
+  224  git branch
+  225  git add . && git commmit -m"added media file"
+  226  git push --set-upstream oringin dev
+  227* 
+  228  git checkout -b prod
+  229  git checkout dev
+  230  git checkout main
+  231  git switch main
+  232  ll -al
+  233  cd .git
+  234  ll
+  235  cat HEAD 
+  236  cd ..
+  237  ls
+  238  git switch dev
+  239  cd .git/
+  240  ls
+  241  cat HEAD 
+  242  cd ..
+  243  git log --oneline
+  244  git switch -c preprod
+  245  git log --oneline
+  246  git status
+  247  git add . && git commit -m"updated h1 on index"
+  248  git push
+  249  git log --oneline
+  250  git switch -c manager
+  251  git add . && git commit -m"updated h1 on index with space"
+  252  git status
+  253  git log --oneline
+  254  git push
+  255  git log --oneline
+  256  git switch dev
+  257  git switch - feature/iac-8897
+  258  git switch -c feature/iac-8897
+  259  git status
+  260  diff diff
+  261  git diff
+  262  git add . && git commit -m"8897"
+  263  git log --oneline
+  264  git merge feature/iac-8897 
+  265  git switch dev
+  266  git merge 
+  267  git merge main
+  268  git merge feature/iac-8897 
+  269  git add . && git commit -m"8897 in main"
+  270  git push
+  271  ls
+  272  history > file.txt
